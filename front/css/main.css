@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    user-select: none;
+}
+
+.nav {
+    width: 100vw;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+}
+
+.nav h1 {
+    font-family: "맑은 고딕";
+    font-weight: 100;
+    color: blanchedalmond;
+}
+
+.nav h1::selection {
+    color: chartreuse;
+}
+
+.content {
+    text-align: center;
+    margin-top: 12vw;
+}
+
+.content div {
+    margin-top: 2vw;
+}
+
+.content div input {
+    width: 20vw;
+    outline: none;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+.content div h4 {
+    font-family: "Segoe UI Light";
+}
